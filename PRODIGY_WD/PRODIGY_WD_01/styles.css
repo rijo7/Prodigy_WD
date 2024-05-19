@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f0a500;
+}
+
+.content {
+    padding-top: 70px;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    color: white;
+}
+
+.about {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,mountain');
+    color: white;
+}
+
+.services {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,forest');
+    color: white;
+}
+
+.contact {
+    background-image: url('https://source.unsplash.com/1600x900/?nature,beach');
+    color: white;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.section p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
